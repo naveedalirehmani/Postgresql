@@ -1,0 +1,35 @@
+.main li{
+    font:1.1rem san-serif;
+    background-color: bisque;
+    margin:1rem;
+}
+
+.btn{
+    padding:0.5rem 1rem;
+    font-size: 1.3rem;
+    background-color:bisque;
+    border:none
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  input{
+    border:1px solid bisque;
+    padding:0.5rem 1rem;
+    font:normal 1.2rem Arial,sans-serif;
+  }
+
+  div{margin:1rem}

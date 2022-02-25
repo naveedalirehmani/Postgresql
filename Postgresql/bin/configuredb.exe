@@ -1,0 +1,14 @@
+#!/bin/bash 
+
+export PGPASSWORD='pass1postgresql'
+
+database="monsters.db"
+
+echo "configuring database: $database"
+
+dropdb -U postgres monstersdb
+createdb -U postgres monstersdb
+
+psql -d monstersdb -U postgres -f 'E:/documents/www/second_course/uconnect/node.js/node_postgres/monsters_api/bin/sql/monsters.sql'
+
+echo "$database configured"
